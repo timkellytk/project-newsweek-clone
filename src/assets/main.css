@@ -10388,7 +10388,7 @@ video {
 }
 
 .font-logo {
-  font-family: Roboto Slab, serif;
+  font-family: Bitter, serif;
 }
 
 .font-hairline {
@@ -10625,6 +10625,10 @@ video {
 
 .text-6xl {
   font-size: 4rem;
+}
+
+.text-7xl {
+  font-size: 5rem;
 }
 
 .leading-3 {
@@ -29130,7 +29134,7 @@ video {
   }
 
   .sm\:font-logo {
-    font-family: Roboto Slab, serif;
+    font-family: Bitter, serif;
   }
 
   .sm\:font-hairline {
@@ -29367,6 +29371,10 @@ video {
 
   .sm\:text-6xl {
     font-size: 4rem;
+  }
+
+  .sm\:text-7xl {
+    font-size: 5rem;
   }
 
   .sm\:leading-3 {
@@ -47842,7 +47850,7 @@ video {
   }
 
   .md\:font-logo {
-    font-family: Roboto Slab, serif;
+    font-family: Bitter, serif;
   }
 
   .md\:font-hairline {
@@ -48079,6 +48087,10 @@ video {
 
   .md\:text-6xl {
     font-size: 4rem;
+  }
+
+  .md\:text-7xl {
+    font-size: 5rem;
   }
 
   .md\:leading-3 {
@@ -66554,7 +66566,7 @@ video {
   }
 
   .lg\:font-logo {
-    font-family: Roboto Slab, serif;
+    font-family: Bitter, serif;
   }
 
   .lg\:font-hairline {
@@ -66791,6 +66803,10 @@ video {
 
   .lg\:text-6xl {
     font-size: 4rem;
+  }
+
+  .lg\:text-7xl {
+    font-size: 5rem;
   }
 
   .lg\:leading-3 {
@@ -85266,7 +85282,7 @@ video {
   }
 
   .xl\:font-logo {
-    font-family: Roboto Slab, serif;
+    font-family: Bitter, serif;
   }
 
   .xl\:font-hairline {
@@ -85503,6 +85519,10 @@ video {
 
   .xl\:text-6xl {
     font-size: 4rem;
+  }
+
+  .xl\:text-7xl {
+    font-size: 5rem;
   }
 
   .xl\:leading-3 {

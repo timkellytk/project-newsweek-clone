@@ -9,7 +9,10 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        logo: ['Roboto Slab', 'serif'],
+        logo: ['Bitter', 'serif'],
+      },
+      fontSize: {
+        '7xl': '5rem',
       },
       colors: {
         primary: '#f72313',

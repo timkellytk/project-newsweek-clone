@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import 'fontsource-roboto-slab';
+import 'fontsource-bitter/900.css';
 import './assets/main.css';
 import App from './App';
 
