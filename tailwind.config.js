@@ -7,8 +7,15 @@ module.exports = {
   },
   purge: [],
   theme: {
-    extend: {}
+    extend: {
+      fontFamily: {
+        logo: ['Roboto Slab', 'serif'],
+      },
+      colors: {
+        primary: '#f72313',
+      },
+    },
   },
   variants: {},
-  plugins: []
-}
+  plugins: [],
+};
