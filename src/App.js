@@ -1,10 +1,15 @@
 import React from 'react';
+import Navigation from './components/Navigation/Navigation';
+import News from './components/News/News';
+import Footer from './components/Footer/Footer';
 
 function App() {
   return (
-    <h1 className="text-6xl bg-primary text-white font-logo uppercase tracking-wide font-black text-center">
-      <span className="text-7xl">N</span>EWSWEEK
-    </h1>
+    <>
+      <Navigation />
+      <News />
+      <Footer />
+    </>
   );
 }
 
