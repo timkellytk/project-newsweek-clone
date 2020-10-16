@@ -36,7 +36,7 @@ const NavMiddle = () => {
         <div className={classes.cornerCustom}></div>
       </div>
       <div className="py-3 border-t-2 border-b-2 border-gray-200">
-        <ul className="flex justify-evenly mr-32">
+        <ul className="flex justify-evenly xl:mr-32">
           <NavMinorLink active>Trending</NavMinorLink>
           <NavMinorLink>Donald Trump</NavMinorLink>
           <NavMinorLink>Joe Biden</NavMinorLink>

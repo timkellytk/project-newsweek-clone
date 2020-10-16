@@ -2,4 +2,21 @@
 
 @tailwind components;
 
+.nav-btn {
+  @apply text-base;
+  @apply font-bold;
+  @apply uppercase;
+  @apply tracking-tight;
+}
+
+.nav-btn--subscribe {
+  @apply ml-5;
+  @apply pl-4;
+  @apply pr-2;
+  @apply py-2;
+  @apply bg-yellow-500;
+  @apply text-black;
+  @apply rounded-full;
+}
+
 @tailwind utilities;
