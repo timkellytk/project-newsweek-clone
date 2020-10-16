@@ -1,8 +1,11 @@
 import React from 'react';
 
-const HamburgerBtn = () => {
+const HamburgerBtn = (props) => {
   return (
-    <div className="hamburger-icon">
+    <div
+      className={`hamburger-icon ${props.mobileNav && 'open'}`}
+      onClick={props.handleMobileNav}
+    >
       <span></span>
       <span></span>
       <span></span>
@@ -11,12 +14,3 @@ const HamburgerBtn = () => {
 };
 
 export default HamburgerBtn;
-
-/* JS */
-
-/* const navIcon = document.querySelector('#hamburgerIcon');
-
-navIcon.addEventListener('click', () => {
-  navIcon.classList.toggle('open');
-});
- */

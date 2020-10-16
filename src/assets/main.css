@@ -629,8 +629,8 @@ video {
 
 .hamburger-icon {
   width: 40px;
-  margin-left: 0.75rem;
-  margin-top: -25px;
+  height: 25px;
+  margin-left: 1rem;
   position: relative;
   transform: rotate(0deg);
   cursor: pointer;

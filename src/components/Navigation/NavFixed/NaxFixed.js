@@ -3,14 +3,14 @@ import LoginBtn from '../NavBtns/LoginBtn';
 import SubscribeBtn from '../NavBtns/SubscribeBtn';
 import HamburgerBtn from '../NavBtns/HamburgerBtn';
 
-const NavFixed = () => {
+const NavFixed = (props) => {
   return (
     <div class="flex justify-between items-center fixed top-0 left-0 right-0 bg-primary text-white px-3 py-2">
       <div class="font-logo text-2xl">Newsweek</div>
       <div class="flex items-center">
         <LoginBtn />
         <SubscribeBtn />
-        <HamburgerBtn />
+        <HamburgerBtn {...props} />
       </div>
     </div>
   );
