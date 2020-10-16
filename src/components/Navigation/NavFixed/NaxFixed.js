@@ -1,6 +1,7 @@
 import React from 'react';
 import LoginBtn from '../NavBtns/LoginBtn';
 import SubscribeBtn from '../NavBtns/SubscribeBtn';
+import HamburgerBtn from '../NavBtns/HamburgerBtn';
 
 const NavFixed = () => {
   return (
@@ -9,6 +10,7 @@ const NavFixed = () => {
       <div class="flex items-center">
         <LoginBtn />
         <SubscribeBtn />
+        <HamburgerBtn />
       </div>
     </div>
   );
