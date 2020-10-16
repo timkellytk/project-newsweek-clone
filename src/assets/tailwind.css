@@ -19,21 +19,37 @@
   @apply rounded-full;
 }
 
+/* Small (sm) */
+@media (max-width: 640px) {
+  .nav-btn {
+    @apply text-sm;
+  }
+  .nav-btn--subscribe {
+    @apply ml-3;
+    @apply pl-2;
+    @apply pr-1;
+    @apply py-1;
+    @apply bg-yellow-500;
+    @apply text-black;
+    @apply rounded-full;
+  }
+}
+
 .hamburger-icon {
+  @apply ml-3;
   width: 40px;
   height: 25px;
-  margin-left: 1rem;
   position: relative;
   transform: rotate(0deg);
   cursor: pointer;
 }
 
 .hamburger-icon span {
+  @apply bg-gray-300;
   display: block;
   position: absolute;
   height: 4px;
   width: 100%;
-  background: white;
   border-radius: 9px;
   opacity: 1;
   left: 0;

@@ -5,7 +5,7 @@ const LoginBtn = () => (
     <span class="hidden sm:inline-block">Login</span>
     <span class="sm:hidden">
       <svg
-        class="fill-current text-gray-300 h-6 w-6"
+        class="fill-current text-gray-300 h-5 w-5 sm:h-6 sm:w-6"
         xmlns="http://www.w3.org/2000/svg"
         viewBox="0 0 20 20"
       >
