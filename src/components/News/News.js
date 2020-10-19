@@ -14,8 +14,13 @@ const News = () => {
           <NewsStory />
           <NewsStory />
         </div>
-        <div className="h-64 bg-teal-500"></div>
-        <div className="h-64 bg-orange-500"></div>
+        <div>
+          <NewsHeadline>Top Story</NewsHeadline>
+          <NewsStory />
+        </div>
+        <div className="">
+          <NewsHeadline>The Debate</NewsHeadline>
+        </div>
       </div>
     </div>
   );

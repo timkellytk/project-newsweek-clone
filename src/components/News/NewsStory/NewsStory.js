@@ -8,7 +8,7 @@ const NewsStory = () => {
         <div className="relative">
           <img
             src={DonaldTrump}
-            className="object-cover object-center"
+            className="object-cover object-center w-full"
             alt="Donald Trump"
           ></img>
           <span className="inline-block absolute left-0 bottom-0 py-2 px-4 bg-gray-200 text-primary font-bold leading-tight">
