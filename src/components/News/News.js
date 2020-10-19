@@ -1,5 +1,6 @@
 import React from 'react';
 import NewsStory from './NewsStory/NewsStory';
+import NewsStorySmall from './NewsStorySmall/NewsStorySmall';
 import NewsHeadline from './NewsHeadline/NewsHeadline';
 
 const News = () => {
@@ -17,6 +18,7 @@ const News = () => {
         <div>
           <NewsHeadline>Top Story</NewsHeadline>
           <NewsStory />
+          <NewsStorySmall />
         </div>
         <div className="">
           <NewsHeadline>The Debate</NewsHeadline>
