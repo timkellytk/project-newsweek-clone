@@ -6,9 +6,9 @@ const Sidedrawer = (props) => {
     <ul
       class={`${
         props.mobileNav ? 'sidedrawer ' : 'sidedrawer sidedrawer--closed '
-      }h-screen fixed top-0 right-0 z-10 overflow-scroll bg-gray-200 py-16 px-8`}
+      }h-screen fixed top-0 right-0 z-10 overflow-scroll bg-gray-200 pt-16 pb-8 px-8`}
     >
-      <li class="flex justify-between items-center mb-4">
+      <li class="flex justify-between items-center mb-4 mr-1">
         <span>Search</span>
         <svg
           className="fill-current ml-2 h-4"
