@@ -715,6 +715,11 @@ video {
   transform: translate3d(100%, 0px, 0px);
 }
 
+.news-grid {
+  display: grid;
+  grid-template-columns: 1fr 1.5fr 1fr;
+}
+
 .space-y-0 > :not(template) ~ :not(template) {
   --space-y-reverse: 0;
   margin-top: calc(0px * calc(1 - var(--space-y-reverse)));
