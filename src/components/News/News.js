@@ -3,6 +3,9 @@ import NewsStory from './NewsStory/NewsStory';
 import NewsStorySmall from './NewsStorySmall/NewsStorySmall';
 import NewsHeadline from './NewsHeadline/NewsHeadline';
 import NewsGrid3 from './NewsGrid3/NewsGrid3';
+import NewsDebate from './NewsDebate/NewsDebate';
+import NewsOpinion from './NewsOpinion/NewsOpinion';
+import NewsArticleSignup from './NewsArticleSignup/NewsArticleSignup';
 
 const News = () => {
   return (
@@ -35,8 +38,13 @@ const News = () => {
             <NewsStorySmall />
           </div>
         </div>
-        <div className="">
+        <div>
           <NewsHeadline>The Debate</NewsHeadline>
+          <NewsDebate />
+          <NewsHeadline>Opinion</NewsHeadline>
+          <NewsOpinion first />
+          <NewsOpinion />
+          <NewsArticleSignup />
         </div>
       </div>
     </div>
