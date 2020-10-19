@@ -1,8 +1,11 @@
 import React from 'react';
+import FooterTop from './FooterTop/FooterTop';
 
 function Footer() {
   return (
-    <footer className="text-4xl text-center p-8 bg-gray-300">Footer</footer>
+    <footer>
+      <FooterTop />
+    </footer>
   );
 }
 
