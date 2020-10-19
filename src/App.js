@@ -5,10 +5,12 @@ import Footer from './components/Footer/Footer';
 
 function App() {
   return (
-    <div className="container lg:mx-auto">
-      <Navigation />
-      <News />
-      <Footer />
+    <div className="bg-gray-200">
+      <div className="container lg:mx-auto bg-white">
+        <Navigation />
+        <News />
+        <Footer />
+      </div>
     </div>
   );
 }

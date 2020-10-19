@@ -2,7 +2,7 @@ import React from 'react';
 
 function FooterTop() {
   return (
-    <div className="lg:flex lg:justify-between lg:items-end px-6 pt-6 pb-2 border-t-2 border-gray-200">
+    <div className="lg:flex lg:justify-between lg:items-end px-6 pt-3 border-t-2 border-gray-200">
       <div className="lg:flex lg:items-baseline">
         <h6 className="lg:text-5xl text-3xl font-logo font-bold text-primary">
           Newsweek
