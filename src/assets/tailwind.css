@@ -103,4 +103,12 @@
   grid-template-columns: 1fr 1.5fr 1fr;
 }
 
+/* Medium device breakpoint */
+@media (max-width: 768px) {
+  .news-grid {
+    grid-template-columns: 1fr;
+    margin-top: 70px;
+  }
+}
+
 @tailwind utilities;
