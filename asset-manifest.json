@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/project-newsweek-clone/static/css/main.6179185d.chunk.css",
+    "main.css": "/project-newsweek-clone/static/css/main.96a54f4d.chunk.css",
     "main.js": "/project-newsweek-clone/static/js/main.217d6a47.chunk.js",
     "main.js.map": "/project-newsweek-clone/static/js/main.217d6a47.chunk.js.map",
     "runtime-main.js": "/project-newsweek-clone/static/js/runtime-main.d77128e7.js",
@@ -9,10 +9,10 @@
     "static/js/2.c25fc35b.chunk.js": "/project-newsweek-clone/static/js/2.c25fc35b.chunk.js",
     "static/js/2.c25fc35b.chunk.js.map": "/project-newsweek-clone/static/js/2.c25fc35b.chunk.js.map",
     "index.html": "/project-newsweek-clone/index.html",
-    "precache-manifest.5e6022ab65511de340003eeceb94ad03.js": "/project-newsweek-clone/precache-manifest.5e6022ab65511de340003eeceb94ad03.js",
+    "precache-manifest.92bdf2d9b1fc0d0bf71f92f8d39b9bf0.js": "/project-newsweek-clone/precache-manifest.92bdf2d9b1fc0d0bf71f92f8d39b9bf0.js",
     "service-worker.js": "/project-newsweek-clone/service-worker.js",
     "static/css/2.a54c8d00.chunk.css.map": "/project-newsweek-clone/static/css/2.a54c8d00.chunk.css.map",
-    "static/css/main.6179185d.chunk.css.map": "/project-newsweek-clone/static/css/main.6179185d.chunk.css.map",
+    "static/css/main.96a54f4d.chunk.css.map": "/project-newsweek-clone/static/css/main.96a54f4d.chunk.css.map",
     "static/js/2.c25fc35b.chunk.js.LICENSE.txt": "/project-newsweek-clone/static/js/2.c25fc35b.chunk.js.LICENSE.txt",
     "static/media/900.css": "/project-newsweek-clone/static/media/bitter-vietnamese-900-normal.e4b2b37a.woff2",
     "static/media/citizenship.png": "/project-newsweek-clone/static/media/citizenship.998d45b6.png",
@@ -31,7 +31,7 @@
     "static/js/runtime-main.d77128e7.js",
     "static/css/2.a54c8d00.chunk.css",
     "static/js/2.c25fc35b.chunk.js",
-    "static/css/main.6179185d.chunk.css",
+    "static/css/main.96a54f4d.chunk.css",
     "static/js/main.217d6a47.chunk.js"
   ]
 }

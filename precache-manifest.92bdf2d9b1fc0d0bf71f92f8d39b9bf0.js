@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "1cb359a2cdd672fb33c09632fff450ee",
+    "revision": "94d14f7e7ac51f0ef941b52f33e876bc",
     "url": "/project-newsweek-clone/index.html"
   },
   {
@@ -8,8 +8,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/project-newsweek-clone/static/css/2.a54c8d00.chunk.css"
   },
   {
-    "revision": "68a4f4cbf524dfee12f8",
-    "url": "/project-newsweek-clone/static/css/main.6179185d.chunk.css"
+    "revision": "4ebfbb45494a763ea300",
+    "url": "/project-newsweek-clone/static/css/main.96a54f4d.chunk.css"
   },
   {
     "revision": "fe8c426909feb63dea73",
@@ -20,7 +20,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/project-newsweek-clone/static/js/2.c25fc35b.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "68a4f4cbf524dfee12f8",
+    "revision": "4ebfbb45494a763ea300",
     "url": "/project-newsweek-clone/static/js/main.217d6a47.chunk.js"
   },
   {

@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/project-newsweek-clone/precache-manifest.5e6022ab65511de340003eeceb94ad03.js"
+  "/project-newsweek-clone/precache-manifest.92bdf2d9b1fc0d0bf71f92f8d39b9bf0.js"
 );
 
 self.addEventListener('message', (event) => {
