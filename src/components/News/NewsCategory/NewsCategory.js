@@ -8,7 +8,7 @@ const NewsCategory = (props) => {
       <h3 className="text-primary capitalize font-bold text-xl">
         {props.title}
       </h3>
-      <div className="grid grid-cols-3 gap-8 mt-2">
+      <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mt-2">
         <article>
           <a href="#empty">
             <img
