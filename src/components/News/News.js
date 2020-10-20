@@ -10,8 +10,8 @@ import NewsArticleSignup from './NewsArticleSignup/NewsArticleSignup';
 const News = () => {
   return (
     <div className="p-6">
-      <div className="news-grid gap-6">
-        <div>
+      <div className="news-grid gap-6 items-start">
+        <div className="news-grid__sticky-col-1">
           <NewsHeadline>Featured Stories</NewsHeadline>
           <NewsStory />
           <NewsStory />
@@ -36,9 +36,12 @@ const News = () => {
             <NewsStorySmall />
             <NewsStorySmall />
             <NewsStorySmall />
+            <NewsStorySmall />
+            <NewsStorySmall />
+            <NewsStorySmall />
           </div>
         </div>
-        <div>
+        <div className="news-grid__sticky-col-3">
           <NewsHeadline>The Debate</NewsHeadline>
           <NewsDebate />
           <NewsHeadline>Opinion</NewsHeadline>

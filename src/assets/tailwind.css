@@ -103,11 +103,27 @@
   grid-template-columns: 1fr 1.5fr 1fr;
 }
 
+.news-grid__sticky-col-1 {
+  position: sticky;
+  top: '-150%';
+}
+
+.news-grid__sticky-col-3 {
+  position: sticky;
+  top: '-20%';
+}
+
 /* Medium device breakpoint */
 @media (max-width: 768px) {
   .news-grid {
     grid-template-columns: 1fr;
     margin-top: 70px;
+  }
+  .news-grid__sticky-col-1 {
+    position: static;
+  }
+  .news-grid__sticky-col-3 {
+    position: static;
   }
 }
 
