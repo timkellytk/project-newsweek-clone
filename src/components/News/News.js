@@ -9,6 +9,8 @@ import NewsArticleSignup from './NewsArticleSignup/NewsArticleSignup';
 import NewsSectionTitle from './NewsSectionTitle/NewsSectionTitle';
 import NewsCoverIssue from './NewsCoverIssue/NewsCoverIssue';
 import NewsMagazineStory from './NewsMagazineStory/NewsMagazineStory';
+import NewsGrid4 from './NewsGrid4/NewsGrid4';
+import NewsCategory from './NewsCategory/NewsCategory';
 
 const News = () => {
   return (
@@ -55,7 +57,7 @@ const News = () => {
       </section>
       <section className="mt-12">
         <NewsSectionTitle>In The Magazine</NewsSectionTitle>
-        <div className="grid grid-cols-4 gap-8 items-end">
+        <NewsGrid4>
           <NewsCoverIssue />
           <NewsMagazineStory />
           <NewsMagazineStory />
@@ -64,11 +66,11 @@ const News = () => {
           <NewsMagazineStory />
           <NewsMagazineStory />
           <NewsMagazineStory />
-        </div>
+        </NewsGrid4>
       </section>
       <section className="mt-12">
         <NewsSectionTitle>Editors Pick</NewsSectionTitle>
-        <div className="grid grid-cols-4 gap-8 items-end">
+        <NewsGrid4>
           <NewsStory />
           <NewsStory />
           <NewsStory />
@@ -77,7 +79,25 @@ const News = () => {
           <NewsStory />
           <NewsStory />
           <NewsStory />
-        </div>
+        </NewsGrid4>
+      </section>
+      <section className="my-8 py-8 border-gray-400 border-t">
+        <NewsCategory title="U.S." />
+      </section>
+      <section className="my-8 py-8 border-gray-400 border-t">
+        <NewsCategory title="World" />
+      </section>
+      <section className="my-8 py-8 border-gray-400 border-t">
+        <NewsCategory title="Business" />
+      </section>
+      <section className="my-8 py-8 border-gray-400 border-t">
+        <NewsCategory title="Tech & Science" />
+      </section>
+      <section className="my-8 py-8 border-gray-400 border-t">
+        <NewsCategory title="Culture" />
+      </section>
+      <section className="my-8 py-8 border-gray-400 border-t">
+        <NewsCategory title="Sports" />
       </section>
     </div>
   );
