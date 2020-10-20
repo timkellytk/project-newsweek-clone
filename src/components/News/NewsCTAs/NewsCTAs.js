@@ -1,6 +1,7 @@
 import React from 'react';
 import Cover1 from '../../../img/cover-1.jpg';
 import Cover2 from '../../../img/cover-2.jpg';
+import Starting5 from '../../../img/starting5.png';
 
 const NewsCTAs = () => {
   return (
@@ -49,6 +50,34 @@ const NewsCTAs = () => {
         <h6 className="uppercase font-bold text-primary tracking-tighter leading-tight">
           Newsletter
         </h6>
+        <div className="pt-3 pb-5 h-full">
+          <div className="h-full grid grid-cols-1 lg:grid-cols-2 border border-gray-300">
+            <img
+              className="md:h-full w-full object-cover object-center"
+              src={Starting5}
+              alt="starting 5"
+            />
+            <div className="flex flex-col justify-center p-5">
+              <h5 className="text-xl font-bold">The Starting 5</h5>
+              <p className="mt-2 text-base font-light text-gray-700 leading-tight">
+                See why nearly a quarter of a million subscribers begin their
+                day with the Starting 5.
+              </p>
+              <form className="mt-4">
+                <input
+                  className="border border-gray-300 p-1 w-full"
+                  type="email"
+                  placeholder="Email Address"
+                />
+                <input
+                  type="button"
+                  className="mt-2 bg-primary text-white font-bold py-1 w-full cursor-pointer"
+                  value="Free Sign Up"
+                />
+              </form>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   );
