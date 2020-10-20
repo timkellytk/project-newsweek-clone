@@ -11,6 +11,7 @@ import NewsCoverIssue from './NewsCoverIssue/NewsCoverIssue';
 import NewsMagazineStory from './NewsMagazineStory/NewsMagazineStory';
 import NewsGrid4 from './NewsGrid4/NewsGrid4';
 import NewsCategory from './NewsCategory/NewsCategory';
+import NewsCTAs from './NewsCTAs/NewsCTAs';
 
 const News = () => {
   return (
@@ -98,6 +99,9 @@ const News = () => {
       </section>
       <section className="my-8 py-8 border-gray-400 border-t">
         <NewsCategory title="Sports" />
+      </section>
+      <section>
+        <NewsCTAs />
       </section>
     </div>
   );
