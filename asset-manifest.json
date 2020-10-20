@@ -1,0 +1,37 @@
+{
+  "files": {
+    "main.css": "/project-newsweek-clone/static/css/main.6179185d.chunk.css",
+    "main.js": "/project-newsweek-clone/static/js/main.217d6a47.chunk.js",
+    "main.js.map": "/project-newsweek-clone/static/js/main.217d6a47.chunk.js.map",
+    "runtime-main.js": "/project-newsweek-clone/static/js/runtime-main.d77128e7.js",
+    "runtime-main.js.map": "/project-newsweek-clone/static/js/runtime-main.d77128e7.js.map",
+    "static/css/2.a54c8d00.chunk.css": "/project-newsweek-clone/static/css/2.a54c8d00.chunk.css",
+    "static/js/2.c25fc35b.chunk.js": "/project-newsweek-clone/static/js/2.c25fc35b.chunk.js",
+    "static/js/2.c25fc35b.chunk.js.map": "/project-newsweek-clone/static/js/2.c25fc35b.chunk.js.map",
+    "index.html": "/project-newsweek-clone/index.html",
+    "precache-manifest.5e6022ab65511de340003eeceb94ad03.js": "/project-newsweek-clone/precache-manifest.5e6022ab65511de340003eeceb94ad03.js",
+    "service-worker.js": "/project-newsweek-clone/service-worker.js",
+    "static/css/2.a54c8d00.chunk.css.map": "/project-newsweek-clone/static/css/2.a54c8d00.chunk.css.map",
+    "static/css/main.6179185d.chunk.css.map": "/project-newsweek-clone/static/css/main.6179185d.chunk.css.map",
+    "static/js/2.c25fc35b.chunk.js.LICENSE.txt": "/project-newsweek-clone/static/js/2.c25fc35b.chunk.js.LICENSE.txt",
+    "static/media/900.css": "/project-newsweek-clone/static/media/bitter-vietnamese-900-normal.e4b2b37a.woff2",
+    "static/media/citizenship.png": "/project-newsweek-clone/static/media/citizenship.998d45b6.png",
+    "static/media/cover-1.jpg": "/project-newsweek-clone/static/media/cover-1.c2f9d063.jpg",
+    "static/media/cover-2.jpg": "/project-newsweek-clone/static/media/cover-2.15f8b4b2.jpg",
+    "static/media/debate1.png": "/project-newsweek-clone/static/media/debate1.e510ce60.png",
+    "static/media/debate2.png": "/project-newsweek-clone/static/media/debate2.f5dddb2c.png",
+    "static/media/donald-trump.jpg": "/project-newsweek-clone/static/media/donald-trump.71ff0383.jpg",
+    "static/media/logo-n1.svg": "/project-newsweek-clone/static/media/logo-n1.acb75038.svg",
+    "static/media/newsweek-issue.jpg": "/project-newsweek-clone/static/media/newsweek-issue.29c0275e.jpg",
+    "static/media/qanon.jpg": "/project-newsweek-clone/static/media/qanon.be486eb9.jpg",
+    "static/media/relationship.jpg": "/project-newsweek-clone/static/media/relationship.97b1d174.jpg",
+    "static/media/starting5.png": "/project-newsweek-clone/static/media/starting5.5e217f3d.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.d77128e7.js",
+    "static/css/2.a54c8d00.chunk.css",
+    "static/js/2.c25fc35b.chunk.js",
+    "static/css/main.6179185d.chunk.css",
+    "static/js/main.217d6a47.chunk.js"
+  ]
+}
