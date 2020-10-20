@@ -19,22 +19,6 @@
   @apply rounded-full;
 }
 
-/* Small (sm) */
-@media (max-width: 640px) {
-  .nav-btn {
-    @apply text-sm;
-  }
-  .nav-btn--subscribe {
-    @apply ml-3;
-    @apply pl-2;
-    @apply pr-1;
-    @apply py-1;
-    @apply bg-yellow-500;
-    @apply text-black;
-    @apply rounded-full;
-  }
-}
-
 .hamburger-icon {
   @apply ml-3;
   width: 40px;
@@ -124,7 +108,23 @@
   justify-items: center;
 }
 
-/* Medium device breakpoint */
+/* Small (sm) */
+@media (max-width: 640px) {
+  .nav-btn {
+    @apply text-sm;
+  }
+  .nav-btn--subscribe {
+    @apply ml-3;
+    @apply pl-2;
+    @apply pr-1;
+    @apply py-1;
+    @apply bg-yellow-500;
+    @apply text-black;
+    @apply rounded-full;
+  }
+}
+
+/* Medium (md) */
 @media (max-width: 768px) {
   .news-grid {
     grid-template-columns: 1fr;
