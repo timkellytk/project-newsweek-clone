@@ -4,33 +4,27 @@ import Cover2 from '../../../img/cover-2.jpg';
 
 const NewsCTAs = () => {
   return (
-    <div
-      className="grid gap-8 py-8 border-t-2 border-b-2 border-gray-200"
-      style={{ gridTemplateColumns: '2fr 1fr' }}
-    >
+    <div className="news-cta-grid gap-8 py-8 border-t-2 border-b-2 border-gray-200">
       <div>
         <h6 className="uppercase font-bold text-primary tracking-tighter leading-tight">
           Subscribe
         </h6>
-        <div
-          className="grid items-center bg-gray-200 p-8 mt-3"
-          style={{ gridTemplateColumns: '1fr 2fr' }}
-        >
-          <div className="relative" style={{ height: '275px' }}>
+        <div className="news-cta-subscribe-grid  items-center bg-gray-200 p-8 mt-3">
+          <div className="relative w-40 lg:w-full" style={{ height: '250px' }}>
             <img
-              className="absolute h-56 object-center object-cover z-10"
-              style={{ bottom: '0%', left: '30%' }}
+              className="absolute h-40 lg:h-56 object-center object-cover z-10"
+              style={{ bottom: '0%', right: '0%' }}
               src={Cover2}
               alt="Cover of Newsweek 18 October"
             />
             <img
-              className="absolute top-0 left-0 h-56 object-center object-cover z-0"
+              className="absolute top-0 left-0 h-40 lg:h-56 object-center object-cover z-0"
               src={Cover1}
               alt="Cover of Newsweek 23 October"
             />
           </div>
-          <div className="ml-8">
-            <h4 className="text-2xl font-bold tracking-tighter leading-tight">
+          <div className="flex flex-col items-center text-center sm:text-left sm:items-start lg:ml-8">
+            <h4 className="text-2xl font-bold tracking-tighter leading-tight mt-4 md:mt-0">
               In-depth Stories You Don't See Elsewhere About Topics You Want To
               Read!
             </h4>

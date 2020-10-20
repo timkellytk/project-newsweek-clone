@@ -113,6 +113,17 @@
   top: '-20%';
 }
 
+.news-cta-grid {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+}
+
+.news-cta-subscribe-grid {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  justify-items: center;
+}
+
 /* Medium device breakpoint */
 @media (max-width: 768px) {
   .news-grid {
@@ -124,6 +135,12 @@
   }
   .news-grid__sticky-col-3 {
     position: static;
+  }
+  .news-cta-grid {
+    grid-template-columns: 1fr;
+  }
+  .news-cta-subscribe-grid {
+    grid-template-columns: 1fr;
   }
 }
 
