@@ -1,20 +1,12 @@
 import React from 'react';
+import ImageTag from '../../Utility/ImageTag/ImageTag';
 import DonaldTrump from '../../../img/donald-trump.jpg';
 
 const NewsStory = () => {
   return (
     <article className="pb-4">
       <a href="empty">
-        <div className="relative">
-          <img
-            src={DonaldTrump}
-            className="object-cover object-center w-full"
-            alt="Donald Trump"
-          ></img>
-          <span className="inline-block absolute left-0 bottom-0 py-2 px-4 bg-gray-200 text-primary font-bold leading-tight">
-            U.S.
-          </span>
-        </div>
+        <ImageTag image={DonaldTrump} tag="U.S." />
       </a>
       <header>
         <a href="#empty">

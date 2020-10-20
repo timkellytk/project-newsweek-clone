@@ -1,15 +1,11 @@
 import React from 'react';
-import logoN1 from '../../../img/logo-n1.svg';
+import LogoN from '../../Utility/LogoN/LogoN';
 
 const NewsArticleSignup = () => {
   return (
     <div className="m-4 p-4 bg-gray-100 border-gray-300 border">
       <div className="flex items-center">
-        <img
-          className="inline-block w-8 h-8 bg-primary object-cover object-center"
-          src={logoN1}
-          alt="Newsweek Logo"
-        />
+        <LogoN />
         <span className="font-bold uppercase leading-snug tracking-tighter ml-3">
           START YOUR DAY WITH OUR TOP 5 ARTICLES
         </span>

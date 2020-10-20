@@ -6,11 +6,13 @@ import NewsGrid3 from './NewsGrid3/NewsGrid3';
 import NewsDebate from './NewsDebate/NewsDebate';
 import NewsOpinion from './NewsOpinion/NewsOpinion';
 import NewsArticleSignup from './NewsArticleSignup/NewsArticleSignup';
+import NewsSectionTitle from './NewsSectionTitle/NewsSectionTitle';
+import NewsCoverIssue from './NewsCoverIssue/NewsCoverIssue';
 
 const News = () => {
   return (
     <div className="p-6">
-      <div className="news-grid gap-6 items-start">
+      <section className="news-grid gap-6 items-start">
         <div className="news-grid__sticky-col-1">
           <NewsHeadline>Featured Stories</NewsHeadline>
           <NewsStory />
@@ -49,7 +51,16 @@ const News = () => {
           <NewsOpinion />
           <NewsArticleSignup />
         </div>
-      </div>
+      </section>
+      <section className="mt-12">
+        <NewsSectionTitle>In The Magazine</NewsSectionTitle>
+        <div className="grid grid-cols-4 gap-4">
+          <NewsCoverIssue />
+          <div className="bg-primary">hello</div>
+          <div className="bg-primary">hello</div>
+          <div className="bg-primary">hello</div>
+        </div>
+      </section>
     </div>
   );
 };
