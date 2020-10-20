@@ -105,12 +105,12 @@
 
 .news-grid__sticky-col-1 {
   position: sticky;
-  top: '-150%';
+  top: -150%;
 }
 
 .news-grid__sticky-col-3 {
   position: sticky;
-  top: '-20%';
+  top: -20%;
 }
 
 .news-cta-grid {
