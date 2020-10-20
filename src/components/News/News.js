@@ -8,6 +8,7 @@ import NewsOpinion from './NewsOpinion/NewsOpinion';
 import NewsArticleSignup from './NewsArticleSignup/NewsArticleSignup';
 import NewsSectionTitle from './NewsSectionTitle/NewsSectionTitle';
 import NewsCoverIssue from './NewsCoverIssue/NewsCoverIssue';
+import NewsMagazineStory from './NewsMagazineStory/NewsMagazineStory';
 
 const News = () => {
   return (
@@ -54,11 +55,28 @@ const News = () => {
       </section>
       <section className="mt-12">
         <NewsSectionTitle>In The Magazine</NewsSectionTitle>
-        <div className="grid grid-cols-4 gap-4">
+        <div className="grid grid-cols-4 gap-8 items-end">
           <NewsCoverIssue />
-          <div className="bg-primary">hello</div>
-          <div className="bg-primary">hello</div>
-          <div className="bg-primary">hello</div>
+          <NewsMagazineStory />
+          <NewsMagazineStory />
+          <NewsMagazineStory />
+          <NewsMagazineStory />
+          <NewsMagazineStory />
+          <NewsMagazineStory />
+          <NewsMagazineStory />
+        </div>
+      </section>
+      <section className="mt-12">
+        <NewsSectionTitle>Editors Pick</NewsSectionTitle>
+        <div className="grid grid-cols-4 gap-8 items-end">
+          <NewsStory />
+          <NewsStory />
+          <NewsStory />
+          <NewsStory />
+          <NewsStory />
+          <NewsStory />
+          <NewsStory />
+          <NewsStory />
         </div>
       </section>
     </div>

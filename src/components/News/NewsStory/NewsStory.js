@@ -11,7 +11,7 @@ const NewsStory = () => {
       <header>
         <a href="#empty">
           <h5
-            className="text-xl font-bold leading-snug tracking-tight mt-2 hover:underline"
+            className="text-xl font-bold leading-tight tracking-tight mt-2 hover:underline"
             style={{
               textDecorationColor: 'red',
             }}
